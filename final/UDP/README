@@ -1,0 +1,14 @@
+1. Contents
+-----------------------------------------
+The folder contents the 2 .c files for client and server. The connection is done using UDP protocol. The client sends HTTP request containing a file. The server responds with the file contents and terminates
+
+2. Running the program
+-----------------------------------------
+Run make
+$make
+
+Run server
+$./server <port>
+
+Run client
+$./client <IP> <port> <file>

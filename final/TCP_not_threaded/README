@@ -1,0 +1,17 @@
+1. Contents
+------------------------------
+The file contents the code for client server using TCP protocol to connect. The client can request 1 file using non-persistent (np) connection. The client then sends an HTTP request for the file and the server responds with the contents of the file.
+
+To send multiple request to server (persistent connection) the client is given a file as input, the 1st line of input file should be the number of file requests that we want to send and each subsequent line is the file names that we want from server. The server then responds with the contents of the files requested.
+
+2. Running
+----------------------------
+Run make
+$make
+
+Run server
+$./server <port>
+
+Run client
+$./client <host> <port> <conn_type> <file>
+
